@@ -17,7 +17,10 @@ ol, ul {
     margin-bottom: 0;
     padding-left: 0;
 }
-
+hr {
+    border-top: 1px solid #ececec;
+    margin-bottom: 3px;
+}
 img {
     display: block;
 }
@@ -138,6 +141,8 @@ body {
     margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
+    width: 696px;
+
 }
 
 .modal-btn {
@@ -192,7 +197,7 @@ body {
 
 .about {
     padding-top: 94px;
-    padding-bottom: 154px;
+    padding-bottom: 94px;
 }
 
 .about-header {
@@ -222,7 +227,7 @@ body {
 
 .team {
     background: #F5F4FA;
-    padding-top: 34px;
+    padding-top: 94px;
     padding-bottom: 94px;
 }
 
@@ -252,8 +257,9 @@ body {
     border-radius: 0px 0px 4px 4px;
 }
 
-.team-member-img {
-    margin-bottom: 30px;
+
+.team-member-content {
+    padding: 30px 60px;
 }
 
 .team-member-name {
@@ -272,7 +278,6 @@ body {
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    margin-bottom: 30px;
 }
 
 /* FOOTER */
@@ -328,14 +333,17 @@ address {
 
 /* PORTFOLIO*/
 
+
+.portfolio {
+    padding-top: 94px;
+}
 .pf-header {
     display: none;
 }
 
 .pf-menu {
     display: flex;
-    padding-top: 94px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     justify-content: center;
 
 } 
@@ -385,10 +393,9 @@ address {
     border-radius: 0px 0px 4px 4px;
 }
 
-.projects-list-img {
-    margin-bottom: 20px;
+.projects-list-content {
+    padding: 20px 24px;
 }
-
 .projects-list-header {
     font-weight: 700;
     font-size: 18px;
@@ -396,8 +403,6 @@ address {
     letter-spacing: 0.06em;
     color: var(--header-txt-color); 
     margin-bottom: 4px;
-    padding-left: 24px;
-    padding-right: 24px;
 }
 
 .projects-list-text {
@@ -405,7 +410,4 @@ address {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
-    margin-bottom: 20px;
-    padding-left: 24px;
-    padding-right: 24px;
 }
